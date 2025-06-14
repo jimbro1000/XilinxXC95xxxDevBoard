@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
@@ -90,55 +90,7 @@
           ""
         ],
         [
-          "starved_thermal|37759827|98488000|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|26b9cf29-8310-48ee-95a0-5fcc2e731a63|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|42089801|44352400|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|d267445d-9c52-4c88-bbc9-e5654095603a|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|42089801|49852400|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|cb134fb4-f542-44de-badb-9120b97dae48|F.Cu",
-          ""
-        ],
-        [
           "starved_thermal|42778800|102150500|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|7030e2b2-1ed6-4be2-b697-c08931244d8b|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|48278800|85969027|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|76089e91-8242-4174-ae10-4d1c272e062f|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|49278800|102150500|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|4d320f90-4e0b-41e1-84cd-341c9e515570|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|49818600|56081200|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|f709f511-6c8b-426f-bd28-c08f7c2b8883|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|54797773|91488000|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|8d94b278-5452-4c00-9593-f1c9d1998d73|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|54797773|94988000|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|f921e4bb-3b64-4c6f-84cc-68a7255872ae|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|55318599|33123601|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|3dfc7668-887a-4549-aa60-141d5097117c|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|57318600|55276750|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|86c3b63b-3048-4e1f-bd79-aedfd9b2011e|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|59818600|33123601|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|76dfffd9-12ec-4846-a1de-37820d44027e|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|65047400|40352401|99a1e38f-9c3d-4f76-a1c2-86e2fd9c4638|ab79a349-b66a-4cde-bab2-5548df810489|F.Cu",
           ""
         ]
       ],
@@ -189,7 +141,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -646,13 +598,43 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
